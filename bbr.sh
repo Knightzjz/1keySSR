@@ -3,11 +3,11 @@ PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 
 #=================================================
-#	System Required: Debian/Ubuntu
+#	System Required: Debian7+/Ubuntu14+
 #	Description: TCP-BBR
-#	Version: 1.0.22
-#	Author: Toyo
-#	Blog: https://doub.io/wlzy-16/
+#	Version: Goolge Cloud BBR script
+#	Author: KnighT
+#	Blog: https://knightzjz.io
 #=================================================
 
 Green_font_prefix="\033[32m" && Red_font_prefix="\033[31m" && Green_background_prefix="\033[42;37m" && Red_background_prefix="\033[41;37m" && Font_color_suffix="\033[0m"
