@@ -641,8 +641,8 @@ action=$1
 if [[ "${action}" == "monitor" ]]; then
 	crontab_monitor
 else
-	echo && echo -e "  Shadowsocks-Go 一键管理脚本 ${Red_font_prefix}[v${sh_ver}]${Font_color_suffix}
-  ---- Toyo | doub.io/ss-jc67 ----
+	echo && echo -e "  Shadowsocks-Go For Serveres 一键管理脚本 ${Red_font_prefix}[v${sh_ver}]${Font_color_suffix}
+  ---- Knightzjz|Backup Version ----
   
  ${Green_font_prefix} 0.${Font_color_suffix} 升级脚本
 ————————————
@@ -651,7 +651,7 @@ else
  ${Green_font_prefix} 3.${Font_color_suffix} 卸载 Shadowsocks
 ————————————
  ${Green_font_prefix} 4.${Font_color_suffix} 启动 Shadowsocks
- ${Green_font_prefix} 5.${Font_color_suffix} 停止 Shadowsocks
+ ${Green_font_prefix} 5.${Font_color_suffix} 停止 Shadowsocks (Temporately Unfunctioning)
  ${Green_font_prefix} 6.${Font_color_suffix} 重启 Shadowsocks
 ————————————
  ${Green_font_prefix} 7.${Font_color_suffix} 设置 账号配置
