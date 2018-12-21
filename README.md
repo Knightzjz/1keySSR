@@ -5,6 +5,7 @@ https://github.com/ToyoDAdoubi/doubi#ssrsh
 Here is my slightly imporved script for building basic SSR server in Bandwagon/Goolge Cloud and a backup site in case of the GFW (since doub's io is already hangup in Dec.2018)  
 
 To use the 1key SSR for personal purpose just copy and run the following: </br> 
+Always First:sudo su !!!! </br>
 wget -N --no-check-certificate https://raw.githubusercontent.com/Knightzjz/1keySSR/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh</br> 
 
 Debian 7+/Ubuntu 16+ already set BBR as default TCP control algorithm, there is no need to extra operate the bbr.sh</br> 
