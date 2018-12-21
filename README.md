@@ -2,8 +2,9 @@
 
 Original Designer is here:
 https://github.com/ToyoDAdoubi/doubi#ssrsh
-
+\p
 Here is my slightly imporved script for building basic SSR server in Bandwagon/Goolge Cloud and a backup site in case of the GFW (since doub's io is already hangup in Dec.2018)
+\p
 To use the 1key SSR for personal purpose just copy and run the following 
 wget -N --no-check-certificate https://raw.githubusercontent.com/Knightzjz/1keySSR/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
 
