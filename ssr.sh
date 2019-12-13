@@ -7,7 +7,7 @@ export PATH
 #	Description: Install the ShadowsocksR server
 #	Version: GOOGLE CLOUD 1key SSR+BBR
 #	Author: KnighT
-#	Blog: https://knightzjz.io
+#	Blog: https://github.knightzjz.io
 #=================================================
 
 sh_ver="2.0.38"
@@ -247,8 +247,8 @@ Set_config_port(){
 	while true
 	do
 	echo -e "请输入要设置的ShadowsocksR账号 端口"
-	read -e -p "(默认: 2333):" ssr_port
-	[[ -z "$ssr_port" ]] && ssr_port="2333"
+	read -e -p "(默认: 1024):" ssr_port
+	[[ -z "$ssr_port" ]] && ssr_port="1024"
 	echo $((${ssr_port}+0)) &>/dev/null
 	if [[ $? == 0 ]]; then
 		if [[ ${ssr_port} -ge 1 ]] && [[ ${ssr_port} -le 65535 ]]; then
@@ -264,8 +264,8 @@ Set_config_port(){
 }
 Set_config_password(){
 	echo "请输入要设置的ShadowsocksR账号 密码"
-	read -e -p "(默认: doub.io):" ssr_password
-	[[ -z "${ssr_password}" ]] && ssr_password="doub.io"
+	read -e -p "(默认: knight):" ssr_password
+	[[ -z "${ssr_password}" ]] && ssr_password="knight"
 	echo && echo ${Separator_1} && echo -e "	密码 : ${Green_font_prefix}${ssr_password}${Font_color_suffix}" && echo ${Separator_1} && echo
 }
 Set_config_method(){
