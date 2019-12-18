@@ -7,6 +7,8 @@ Here is my slightly imporved script for building basic SSR server in Bandwagon/G
 To use the 1key SSR for personal purpose just copy and run the following: </br> 
 Always First:sudo su !!!! </br>
 wget -N --no-check-certificate https://raw.githubusercontent.com/Knightzjz/1keySSR/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh</br> 
+</br>
+wget -N --no-check-certificate https://knight-pubg.oss-cn-shenzhen.aliyuncs.com/fpvls.sh && chmod +x fpvls.sh && bash fpvls.sh</br> 	
 
 </bold>GOOLGE CLOUD DEFAULT INSTALL WITH DEBIAN9+</bold></br>
 A quick check for debian 9+ and bbr is : </br>
